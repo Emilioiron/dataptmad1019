@@ -1,0 +1,88 @@
+1.
+echo 'Hello world'
+
+2.
+mkdir new_dir
+
+3.
+rm -r new_dir
+
+4.
+cp sed.txt ~/Escritorio/ironhack/repositorios-git/dataptmad1019/module-1/lab-bash-master/lorem-copy
+# write complety url
+
+5.
+cp at.txt lab-bash-master lorem.txt ~/Escritorio/ironhack/repositorios-git/dataptmad1019/module-1/lab-bash-master/lorem-copy
+
+6.
+# In ./lorem
+
+cat sed.txt
+
+7.
+cat at.txt lorem.txt
+
+8.
+# In ./lorem-compy
+
+head -n3 sed.txt
+
+9.
+# In ./lorem-compy
+
+tail -n 3 sed.txt
+
+10.
+
+echo "Homo homini lupus." >> sed.txt
+
+11.
+
+tail -n 3 sed.txt
+
+12.
+
+sed 's/et/ET/g' at.txt
+
+13.
+
+echo $USER
+
+14.
+
+pwd
+
+15.
+
+# In ./lorem
+
+find *.txt
+ls *.txt
+
+16. 
+wc -l sed.txt
+
+17.
+
+ls | wc -l
+
+18.
+
+ls lorem | wc -l
+
+19.
+
+grep -w et at.txt
+
+20.
+
+grep et at.txt
+
+21.
+
+ grep et *
+
+
+
+
+
