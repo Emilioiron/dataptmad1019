@@ -67,14 +67,14 @@ print(d)
 e = (a*c)
 
 print(a)
-print(c)
+
+print(e)
 #13. Does e equal to a? Why or why not?
 
-f = np.ones((2,3,3))
-print(f)
+# Yes, e equal to a, becouse c is ones array
+
 
 #14. Identify the max, min, and mean values in d. Assign those values to variables "d_max", "d_min", and "d_mean"
-
 
 
 

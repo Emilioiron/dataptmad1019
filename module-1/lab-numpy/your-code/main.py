@@ -69,7 +69,6 @@ print(e)
 
 
 
-
 #14. Identify the max, min, and mean values in d. Assign those values to variables "d_max", "d_min", and "d_mean"
 
 
