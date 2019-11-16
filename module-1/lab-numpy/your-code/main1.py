@@ -13,11 +13,12 @@ print(np.show_config())
 a = np.random.random((2,3,5))
 print(a)
 
-a = np.random.rand(2,3,5)
-print(a)
+# other form a = np.random.rand(2,3,5)
 
-a = np.random.random_sample([2,3,5])
-print(a)
+
+# other form a = np.random.random_sample([2,3,5])
+
+
 
 #4. Print a.
 
@@ -64,11 +65,13 @@ print(d)
 #12. Multiply a and c. Assign the result to e.
 
 e = (a*c)
-print(e)
+
+print(a)
+print(c)
 #13. Does e equal to a? Why or why not?
 
-
-
+f = np.ones((2,3,3))
+print(f)
 
 #14. Identify the max, min, and mean values in d. Assign those values to variables "d_max", "d_min", and "d_mean"
 
