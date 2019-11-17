@@ -13,11 +13,12 @@ print(np.show_config())
 a = np.random.random((2,3,5))
 print(a)
 
-a = np.random.rand(2,3,5)
-print(a)
+# other form a = np.random.rand(2,3,5)
 
-a = np.random.random_sample([2,3,5])
-print(a)
+
+# other form a = np.random.random_sample([2,3,5])
+
+
 
 #4. Print a.
 
@@ -64,20 +65,28 @@ print(d)
 #12. Multiply a and c. Assign the result to e.
 
 e = (a*c)
+
+print(a)
 print(e)
 #13. Does e equal to a? Why or why not?
 
+# Yes, e equal to a, becouse c is ones array
 
 
 #14. Identify the max, min, and mean values in d. Assign those values to variables "d_max", "d_min", and "d_mean"
 
+d_max = np.amax(d)
+d_min = np.amin(d)
+d_mean = np.mean(d)
 
-
+print(np.amax(d))
+print(np.amin(d))
+print(np.mean(d))
 
 #15. Now we want to label the values in d. First create an empty array "f" with the same shape (i.e. 2x3x5) as d using `np.empty`.
 
-
-
+f = np.empty([2, 3, 5])
+print(f)
 
 """
 #16. Populate the values in f. For each value in d, if it's larger than d_min but smaller than d_mean, assign 25 to the corresponding value in f.
@@ -88,6 +97,28 @@ Assign 100 to the corresponding value(s) in f for d_max in d.
 In the end, f should have only the following values: 0, 25, 50, 75, and 100.
 Note: you don't have to use Numpy in this question.
 """
+# I can't create the array with the outputs of the for loop, I only get a list of the results.
+# I need a function that adds or changes each output value of each element of the matrix d to the same element of the matrix f.
+
+
+f_list= []
+for i in range(len(d)):
+    for j in range(len(d[i])):
+        for k in range(len(d[i][j])):
+            if d_min < d[i][j][k] < d_mean:
+                f_list.append(25)
+            elif d_mean < d[i][j][k] < d_max:
+                f_list.append(75)
+            else:
+                f_list.append(50)
+
+print(f_list)
+
+lst = [[ [1 for f_list in range(5)] for f_list in range(3)] for f_list in range(2)]
+
+print(lst)
+
+
 
 
 
