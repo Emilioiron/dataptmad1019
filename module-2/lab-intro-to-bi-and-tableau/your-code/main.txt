@@ -1,1 +1,1 @@
-https://public.tableau.com/profile/emilio.pati.o.rodrigo#!/vizhome/lab-tableau_15815445602320/TotalRetailTransfersbyYearMonthandItemType?publish=yes
+https://public.tableau.com/profile/emilio.jose.pati.o.rodrigo#!/vizhome/lab-tableau_tablas/TotalRetailSalesbyYearQuarterrows
